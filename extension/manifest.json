@@ -1,0 +1,22 @@
+{
+	"name": "Regions Bank - Autofocus login",
+	"short_name": "Regions focus Login",
+	"description": "Autofocus login input fields at regions.com",
+	"version": "1.0.0",
+	"manifest_version": 2,
+
+	"content_scripts": [ {
+		"js": [
+			"js/user.js"
+			],
+		"matches": [
+			"https://www.regions.com/",
+      "https://www.regions.com/personal-banking/"
+			]
+		} ],
+	"icons": {
+		"16": "icons/icon-16.png",
+		"48": "icons/icon-48.png",
+		"128": "icons/icon-128.png"
+		}
+}
